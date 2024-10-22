@@ -1,0 +1,11 @@
+
+
+menuentry "System Reboot" --class restart {
+	echo "System Rebooting..."
+	reboot
+}
+
+menuentry "System Shutdown" --class shutdown {
+	echo "System Shutting Down..."
+	halt
+}
