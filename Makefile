@@ -6,6 +6,6 @@ THEMEDESTDIR = /boot/grub/themes
 all:
 	@echo Run \'make install\' to install.
 install:
-	@sudo cp -r $(THEMES) $(THEMEDESTDIR)
+	@cp -r $(THEMES) $(THEMEDESTDIR)
 	@cat $(40CUSTOMTARGET) | sudo tee -a /etc/grub.d/40_custom
-	@sudo rm /etc/grub.d/30_uefi-firmware
+	@rm /etc/grub.d/30_uefi-firmware
