@@ -7,5 +7,5 @@ all:
 	@echo Run \'make install\' to install.
 install:
 	@cp -r $(THEMES) $(THEMEDESTDIR)
-	@cat $(40CUSTOMTARGET) | sudo tee -a /etc/grub.d/40_custom
+	@cat $(40CUSTOMTARGET) > /etc/grub.d/40_custom
 	@rm /etc/grub.d/30_uefi-firmware
