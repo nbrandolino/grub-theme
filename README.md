@@ -7,18 +7,23 @@ This repository holds my grub theme and acquired grub themes that I like.
 2. **lenovo-thinkpad-efi**:
     - Acquired theme from https://www.gnome-look.org/p/2227016.
 
-## Install
-To install, use the following commands:
-```bash
-cd ./grub-theme
-```
-```bash
-make install
-```
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/nbrandolino/grub-theme.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd ./grub-theme
+    ```
+3. Install:
+    ```bash
+    make install
+    ```
 
 ## License
 This theme is licensed under the GNU General Public License (GPL). See ./LICENSE for more details.
 
 ## Contact
-nbrandolino
-nickbrandolino134@gmail.com
+- **Author**: nbrandolino
+- **Email**: [nickbrandolino134@gmail.com](mailto:nickbrandolino134@gmail.com)
